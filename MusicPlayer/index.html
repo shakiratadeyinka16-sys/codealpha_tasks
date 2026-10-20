@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syrix Music Player</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="bg-blur"></div>
+<header class="topbar">
+<h1 class="logo">Syrix</h1>
+<input type="search" id="search" placeholder="Search songs or artists" aria-label="Search songs">
+<nav>
+<button class="nav-link active" data-view="home">Home</button>
+<button class="nav-link" data-view="library">Your library</button>
+</nav>
+</header>
+
+<!-- NEW: wrapper that makes the glass card -->
+<div class="app">
+<main>
+<section id="home-view">
+<h2>Playlist</h2>
+<ul id="playlist"></ul>
+</section>
+
+<section id="library-view" hidden>
+<h2>Your library</h2>
+<p id="library-empty">Tap the heart on a song to save it here.</p>
+<ul id="library-list"></ul>
+</section>
+</main>
+
+<aside class="now-playing">
+<!-- NEW: cover now sits inside a vinyl disc -->
+<div class="vinyl" id="vinyl">
+<img id="cover" src="" alt="Album cover">
+</div>
+<h2 id="song-title">Song title</h2>
+<p id="song-artist">Artist name</p>
+<button id="like-btn" aria-label="Like">♡</button>
+
+<input type="range" id="progress" min="0" max="100" value="0" step="any" aria-label="Seek">
+<div class="times">
+<span id="current-time">00:00</span>
+<span id="duration">00:00</span>
+</div>
+
+<div class="controls">
+<button id="prev-btn" aria-label="Previous">⏮</button>
+<button id="play-btn" aria-label="Play">▶</button>
+<button id="next-btn" aria-label="Next">⏭</button>
+<button id="repeat-btn" aria-label="Repeat: off">🔁</button>
+<button id="shuffle-btn" aria-label="Shuffle: off">🔀</button>
+</div>
+
+<div class="volume-row">
+<button id="mute-btn" aria-label="Mute">🔊</button>
+<input type="range" id="volume" min="0" max="100" value="80" aria-label="Volume">
+</div>
+</aside>
+</div>
+
+<div class="mini-player">
+<div class="mini-progress">
+<div id="mini-progress-fill"></div>
+</div>
+<img id="mini-cover" src="" alt="">
+<div class="mini-info">
+<p id="mini-title">Song title</p>
+<p id="mini-artist">Artist name</p>
+</div>
+<button id="mini-play" aria-label="Play">▶</button>
+<button id="mini-next" aria-label="Next">⏭</button>
+</div>
+</body>
+</html>

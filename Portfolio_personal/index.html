@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeyinka S. Adenike - Web Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='1' y='1' width='46' height='46' rx='13' fill='%23171a44' stroke='%236d5df6' stroke-width='2'/%3E%3Ctext x='24' y='25' text-anchor='middle' dominant-baseline='central' font-size='30' font-weight='700' fill='white' font-family='monospace'%3ES%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="portfolio.css">
+    <script>
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        document.documentElement.classList.add("js");
+    }
+    </script>
+</head>
+<body>
+    <header class="site-nav">
+        <a href="#top" class="logo">
+            <span class="logo-badge">&lt;S<span class="slash">/</span>&gt;</span>
+            <span>Syrix<span class="logo-tag">.builds</span></span>
+        </a>
+        <nav aria-label="Main">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-primary nav-cta">Hire Me</a>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-content">
+                <img src="me.jpg" alt="Adeyinka S. Adenike" class="hero-photo">
+                <span class="eyebrow"><span class="dot"></span>Open to opportunities &amp; collaborations</span>
+                <h1>Hi, I'm <span class="gradient-text">Adeyinka S. Adenike</span></h1>
+                <p class="typing">I build <span class="typed" id="typed"></span><span class="cursor" aria-hidden="true"></span></p>
+                <p class="tagline">A passionate Computer Science student and aspiring web developer crafting responsive websites, clean user interfaces, and intuitive digital experiences.</p>
+                <div class="cta-row">
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                    <a href="cv.pdf" download="Adeyinka-Adenike-CV.pdf" class="btn-secondary">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="about-grid">
+                <div>
+                    <span class="section-label">About</span>
+                    <h2>About Me</h2>
+                    <div class="bar"></div>
+                    <p>I'm Adeyinka Shakirat Adenike, a Computer Science student at the University of Ibadan, also known online as <span class="syrix-name">Syrix</span>. I'm training to become a web developer by building real things.</p>
+                    <p>So far that means a recipe site, a food-ordering app for students on campus, and Accountaboard, a shared app where two partners keep each other on track. I work with HTML, CSS, JavaScript and Git, documenting every step on the way.</p>
+                    <ul class="details">
+                        <li><small>Name</small>Adeyinka S. Adenike</li>
+                        <li><small>University</small>University of Ibadan</li>
+                        <li><small>Email</small>shakiratadeyinka16@gmail.com</li>
+                        <li><small>Status</small><span class="status">Open to opportunities</span></li>
+                    </ul>
+                </div>
+
+                <div class="about-side">
+                    <div class="stats">
+                        <div class="stat"><b class="c1">3</b>Projects built</div>
+                        <div class="stat"><b class="c2">4</b>Core skills</div>
+                        <div class="stat"><b class="c3">UI</b>Computer Science</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <span class="section-label center">My capabilities</span>
+            <h2 class="center">Skills</h2>
+            <div class="bar center"></div>
+            <div class="skills-row">
+                <div class="skill-card s1">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">
+                    <h3>HTML</h3>
+                    <p>Semantic, well-structured pages.</p>
+                </div>
+                <div class="skill-card s2">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="">
+                    <h3>CSS</h3>
+                    <p>Layouts, responsive design and styling.</p>
+                </div>
+                <div class="skill-card s3">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="">
+                    <h3>Git</h3>
+                    <p>Version control and GitHub workflow.</p>
+                </div>
+                <div class="skill-card s4">
+                    <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="">
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity to the web.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <span class="section-label center">My work</span>
+            <h2 class="center">Projects</h2>
+            <div class="bar center"></div>
+            <div class="project-list">
+                <article class="project">
+                    <a class="project-shot" href="https://shakiratadeyinka16-sys.github.io/odin-recipes/" target="_blank" rel="noopener" aria-label="Open Odin's Recipe">
+                        <div class="window-bar"><i></i><i></i><i></i></div>
+                        <div class="shot b1" data-num="01">
+                            <img src="images/odinsrecipe.png" alt="Screenshot of Odin's Recipe" onerror="this.remove()">
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <div class="project-meta"><span class="tag">Web app</span><span class="live"><span class="dot"></span>Live</span></div>
+                        <h3>Odin's Recipe</h3>
+                        <p>A simple multi page website showcasing different recipes with the ingredients and images with the dish.</p>
+                        <a class="project-link" href="https://shakiratadeyinka16-sys.github.io/odin-recipes/" target="_blank" rel="noopener">Visit site <span>→</span></a>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <a class="project-shot" href="https://shakiratadeyinka16-sys.github.io/student-pot/" target="_blank" rel="noopener" aria-label="Open Student Pot">
+                        <div class="window-bar"><i></i><i></i><i></i></div>
+                        <div class="shot b2" data-num="02">
+                            <img src="images/studentpot.png" alt="Screenshot of Student Pot" onerror="this.remove()">
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <div class="project-meta"><span class="tag">Web app</span><span class="live"><span class="dot"></span>Live</span></div>
+                        <h3>Student Pot</h3>
+                        <p>A simple food ordering website for students on campus.</p>
+                        <a class="project-link" href="https://shakiratadeyinka16-sys.github.io/student-pot/" target="_blank" rel="noopener">Visit site <span>→</span></a>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <a class="project-shot" href="https://accountaboard.vercel.app/" target="_blank" rel="noopener" aria-label="Open Accountaboard">
+                        <div class="window-bar"><i></i><i></i><i></i></div>
+                        <div class="shot b3" data-num="03">
+                            <img src="images/accountaboard.png" alt="Screenshot of Accountaboard" onerror="this.remove()">
+                        </div>
+                    </a>
+                    <div class="project-body">
+                        <div class="project-meta"><span class="tag">Web app</span><span class="live"><span class="dot"></span>Live</span></div>
+                        <h3>Accountaboard</h3>
+                        <p>A shared accountability app for two partners. Each person adds the tasks they want to get done, and their partner can see them and send a nudge to keep them on track.</p>
+                        <a class="project-link" href="https://accountaboard.vercel.app/" target="_blank" rel="noopener">Visit site <span>→</span></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <span class="section-label center">Get in touch</span>
+            <h2 class="center">Let's Work Together</h2>
+            <div class="bar center"></div>
+            <p class="contact-intro">Feel free to reach out. I'm open to opportunities and collaborations.</p>
+
+            <div class="contact-wrap">
+                <div class="contact-info">
+                    <h3>Other ways to reach me</h3>
+                    <p>Prefer a different route? Use any of these.</p>
+                    <a class="info-row" href="mailto:shakiratadeyinka16@gmail.com">
+                        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg></span>
+                        <span><small>Email</small><strong>shakiratadeyinka16@gmail.com</strong></span>
+                    </a>
+                    <a class="info-row" href="https://github.com/shakiratadeyinka16-sys" target="_blank" rel="noopener">
+                        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg></span>
+                        <span><small>GitHub</small><strong>shakiratadeyinka16-sys</strong></span>
+                    </a>
+                </div>
+
+                <form class="wa-form" id="wa-form" novalidate>
+                    <h3>Message me on WhatsApp</h3>
+                    <div class="wa-field">
+                        <label for="wa-name">Your name</label>
+                        <input type="text" id="wa-name" placeholder="Adeyemi Tutu">
+                        <p class="wa-error" id="wa-error" hidden>Enter your name first</p>
+                    </div>
+                    <div class="wa-field">
+                        <label for="wa-topic">I'm reaching out about</label>
+                        <select id="wa-topic">
+                            <option>a job opportunity</option>
+                            <option>a project</option>
+                            <option>a collaboration</option>
+                            <option>just saying hi</option>
+                        </select>
+                    </div>
+                    <div class="wa-field">
+                        <label for="wa-message">Your message (optional)</label>
+                        <textarea id="wa-message" rows="3" placeholder="Tell me a bit more"></textarea>
+                    </div>
+                    <label>Preview of what I'll receive</label>
+                    <p class="bubble" id="wa-preview"></p>
+                    <button type="submit" class="wa-send">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" width="20" height="20"><path d="M21 12a8 8 0 0 1-11.8 7L4 20l1.1-4.6A8 8 0 1 1 21 12z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            Send on WhatsApp
+                    </button>
+                    <p class="wa-error" id="wa-config" hidden>Add your WhatsApp number in the script first.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Adeyinka S. Adenike. All rights reserved.</p>
+    </footer>
+    <script>
+    const phrases = ["responsive websites", "useful web apps", "tools that solve real problems", "something new every day"];
+    const typedEl = document.getElementById("typed");
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let p = 0, c = 0, deleting = false;
+
+    function type() {
+        const word = phrases[p];
+        typedEl.textContent = word.slice(0, c);
+        if (!deleting && c < word.length) { c++; setTimeout(type, 90); }
+        else if (!deleting) { deleting = true; setTimeout(type, 1400); }
+        else if (c > 0) { c--; setTimeout(type, 45); }
+        else { deleting = false; p = (p + 1) % phrases.length; setTimeout(type, 300); }
+    }
+
+    if (reduceMotion) typedEl.textContent = phrases[0]; else type();
+    </script>
+    <script>
+const WHATSAPP_NUMBER = "2348148163314";
+
+const waForm = document.getElementById("wa-form");
+const waName = document.getElementById("wa-name");
+const waTopic = document.getElementById("wa-topic");
+const waMessage = document.getElementById("wa-message");
+const waPreview = document.getElementById("wa-preview");
+const waError = document.getElementById("wa-error");
+const waConfig = document.getElementById("wa-config");
+
+function buildMessage() {
+    const name = waName.value.trim() || "[your name]";
+    let text = "Hi Adeyinka, my name is " + name + ". I'm reaching out about " + waTopic.value + ".";
+    const extra = waMessage.value.trim();
+    if (extra) text += "\n\n" + extra;
+    return text;
+}
+
+function updatePreview() {
+    waPreview.textContent = buildMessage();
+    waError.hidden = true;
+}
+
+[waName, waTopic, waMessage].forEach(function (el) {
+    el.addEventListener("input", updatePreview);
+    el.addEventListener("change", updatePreview);
+});
+
+waForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    if (!waName.value.trim()) {
+        waError.hidden = false;
+        waName.focus();
+        return;
+    }
+    if (!/^\d{10,15}$/.test(WHATSAPP_NUMBER)) {
+        waConfig.hidden = false;
+        return;
+    }
+    waConfig.hidden = true;
+    const url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(buildMessage());
+    window.open(url, "_blank", "noopener");
+});
+
+updatePreview();
+</script>
+<script>
+(function () {
+    if (!document.documentElement.classList.contains("js")) return;
+
+    // Mark elements to animate; each group comes in one after another
+    function stagger(containerSel, childSel, step, base) {
+        document.querySelectorAll(containerSel).forEach(function (container) {
+            container.querySelectorAll(childSel).forEach(function (el, i) {
+                el.classList.add("reveal");
+                el.style.setProperty("--delay", (base + i * step) + "ms");
+            });
+        });
+    }
+
+    stagger(".hero-content", ":scope > *", 130, 100);
+    stagger("#about .about-grid > div:first-child", ":scope > *", 90, 0);
+    stagger(".stats", ".stat", 130, 150);
+    stagger(".section", ":scope > .section-label, :scope > h2, :scope > .bar, :scope > .contact-intro", 90, 0);
+    stagger(".skills-row", ".skill-card", 130, 200);
+    stagger(".project-list", ".project", 170, 200);
+    stagger(".contact-wrap", ":scope > *", 170, 250);
+
+    // Reveal each element when it scrolls into view
+    if (!("IntersectionObserver" in window)) {
+        document.querySelectorAll(".reveal").forEach(function (el) { el.classList.add("in"); });
+        return;
+    }
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("in");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
+
+    document.querySelectorAll(".reveal").forEach(function (el) { observer.observe(el); });
+})();
+</script>
+</body>
+</html>

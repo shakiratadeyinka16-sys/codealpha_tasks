@@ -1,0 +1,19 @@
+window.PHOTO_LIST=[
+  "images/art.jpg",
+  "images/boat.jpg",
+  "images/building.jpg",
+  "images/bus.jpg",
+  "images/ceiling.jpg",
+  "images/clothing.jpg",
+  "images/cow.jpg",
+  "images/flower.jpg",
+  "images/humanart.jpg",
+  "images/lady.jpg",
+  "images/model.jpg",
+  "images/nature.jpg",
+  "images/painting.jpg",
+  "images/randompainting.jpg",
+  "images/rome.jpg",
+  "images/skyscraper.jpg",
+  "images/trafficlight.jpg"
+];
